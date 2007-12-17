@@ -20,7 +20,6 @@ Requires:       apache-conf >= 2.0.54
 Requires:       apache >= 2.0.54
 BuildRequires:  apache-devel >= 2.0.54
 BuildRequires:	file
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 mod_but is an Apache 2.x module designed to operate as
