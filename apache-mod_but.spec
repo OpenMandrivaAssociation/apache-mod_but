@@ -6,7 +6,7 @@
 Summary:	Shared Memory / Pre-Authentiation / Reverse Proxy
 Name:		apache-%{mod_name}
 Version:	2.9
-Release:	%mkrel 3
+Release:	%mkrel 4
 Group:		System/Servers
 License:	BSD
 URL:		http://www.but.ch/mod_but/
