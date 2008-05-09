@@ -5,12 +5,12 @@
 
 Summary:	Shared Memory / Pre-Authentiation / Reverse Proxy
 Name:		apache-%{mod_name}
-Version:	2.9
-Release:	%mkrel 4
+Version:	3.1
+Release:	%mkrel 1
 Group:		System/Servers
 License:	BSD
 URL:		http://www.but.ch/mod_but/
-Source0:	http://www.but.ch/mod_but/download/mod_but_%{version}.tar.gz
+Source0:	http://www.but.ch/mod_but/download/mod_but_latest.tar.gz
 Source1:	%{mod_conf}
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
@@ -30,7 +30,7 @@ other standard modules.
 
 %prep
 
-%setup -q -n mod_but_%{version}
+%setup -q -n mod_but_V%{version}
 
 cp %{SOURCE1} %{mod_conf}
 
