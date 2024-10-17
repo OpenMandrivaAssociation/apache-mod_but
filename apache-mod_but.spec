@@ -9,7 +9,7 @@ Version:	3.1
 Release:	9
 Group:		System/Servers
 License:	BSD
-URL:		http://www.but.ch/mod_but/
+URL:		https://www.but.ch/mod_but/
 Source0:	http://www.but.ch/mod_but/download/mod_but_latest.tar.gz
 Source1:	%{mod_conf}
 Requires(pre): rpm-helper
